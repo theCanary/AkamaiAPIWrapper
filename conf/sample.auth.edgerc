@@ -1,0 +1,6 @@
+[default]
+client_secret = this&^%!is"&*^not!^real=
+host = some-really-long-akamai-hostname.luna.akamaiapis.net
+access_token = akab-jsdeury38ojdfw09-jar8j947tyhgizjo
+client_token = akab-ioaepefnc74f78nc-id93j27dmcpsjwe8
+max-body = 131072
