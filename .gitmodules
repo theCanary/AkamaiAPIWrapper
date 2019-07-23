@@ -1,0 +1,3 @@
+[submodule "lib/AkamaiOPEN-edgegrid-powershell"]
+	path = lib/AkamaiOPEN-edgegrid-powershell
+	url = https://github.com/scotta01/AkamaiOPEN-edgegrid-powershell
