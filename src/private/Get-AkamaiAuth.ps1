@@ -1,10 +1,10 @@
-#$authPath = "$PSScriptRoot\conf\auth.edgerc"
+$authPath = "$($MyInvocation.PSScriptRoot)\conf\auth.edgerc"
 
 function Get-AkamaiAuthToken{
     param(
         [Parameter(Mandatory=$false)]
         [Alias("Path")]
-        $authPath = "$PSScriptRoot\..\..\conf\auth.edgerc"
+        $authPath = "$authPath"
     )
     begin{
         $auth = Get-Content $authPath

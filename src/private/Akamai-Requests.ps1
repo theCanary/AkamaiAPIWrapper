@@ -1,4 +1,4 @@
-$akamaiwrapper = "$PSScriptRoot\..\..\lib\Invoke-AkamaiOPEN.ps1"
+$akamaiwrapper = "$($MyInvocation.PSScriptRoot)\lib\AkamaiOPEN-edgegrid-powershell\Invoke-AkamaiOPEN.ps1"
 function  Set-AkamaiRequest {
     param(
         [Parameter(Mandatory=$true)]
